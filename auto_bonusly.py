@@ -35,6 +35,6 @@ data = {"reason": reason}
 given = requests.post(api_base + 'bonuses', params=access_params, data=data).json()
 
 if remainder:
-  reason = "+%s %s %s %s" % (remainder, user_names[1], message, hashtag)
+  reason = "+%s %s %s %s" % (remainder, user_names[0], message, hashtag)
   data = {"reason": reason}
   given = requests.post(api_base + 'bonuses', params=access_params, data=data).json()
