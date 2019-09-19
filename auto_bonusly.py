@@ -4,7 +4,7 @@ import sys
 access_token = sys.argv[1]
 limit = int(sys.argv[2])
 points_per_person = 5
-message = "thanks for giving me my latest bonus points (automated end-of-month giveaway)"
+message = "thanks! (automated end-of-month giveaway)"
 hashtag = "#be-genuine"
 
 api_base = 'https://bonus.ly/api/v1/' 
